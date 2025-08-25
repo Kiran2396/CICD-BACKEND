@@ -15,7 +15,7 @@ public class ArithmeticCalc {
 
 	@GetMapping("add/{A}/{B}")
 	public String add(@PathVariable ("A") int a, @PathVariable("B") int b) {
-		return "ADDITION = " + (a + b);
+		return "" + (a + b);
 	}
 	
 	@GetMapping("sub/{C}/{D}")
