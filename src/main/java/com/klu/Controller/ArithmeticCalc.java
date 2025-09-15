@@ -33,9 +33,9 @@ public class ArithmeticCalc {
 		return "" + (a / b);
 	}
 	
-	@GetMapping("mod/{A}/{B}")
-	public String mod(@PathVariable ("A") int a, @PathVariable("B") int b) {
-		return "" + (a % b);
+	@GetMapping("mod/{O}/{P}")
+	public String mod(@PathVariable ("O") int o, @PathVariable("P") int p) {
+		return "" + (o % p);
 	}
 	
 }
